@@ -1,0 +1,13 @@
+<div class="card">
+  <img [src]="getProfile(user.genero)" alt="Person" class="card__image">
+  <p class="card__name">{{ user.nombre }} {{ user.apellido }}</p>
+  <div class="grid-container">
+
+    <div class="grid-child-posts">{{ user.genero }}</div>
+    <div class="grid-child-followers">{{ user.apellido }}</div>
+  </div>
+  <div>
+    <h3>{{ user.email }}</h3>
+  </div>
+  <button class="btn draw-border">Ir</button>
+</div>
